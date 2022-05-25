@@ -172,13 +172,13 @@ button:hover{
 	text-align: center;
 }
 .box{
-	display: flex;
+	display: grid;
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
 }
 .card{
-	height: 365px;
+	height: 400px;
 	width: 335px;
 	padding: 20px 35px;
 	background: #191919;
@@ -235,18 +235,18 @@ h5{
 	text-align: center;
 }
 .box{
-	display: flex;
-	justify-content: center;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
 	min-height: 400px;
 }
 .card{
-	height: 365px;
+	height: 420px;
 	width: 335px;
 	padding: 20px 35px;
 	background: #363232;
 	border-radius: 10px;
-	margin: 15px;
+	margin: 20px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -255,20 +255,20 @@ h5{
 	font-size: 50px;
 	display: block;
 	text-align: center;
-	margin: 25px 0px;
+	margin: 50px 0px;
 	color: #04509d;
 
 }
 h5{
 	color: white;
 	font-size: 23px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .pra p{
 	color: #fcfc;
 	font-size: 16px;
 	line-height: 27px;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
 .card .button{
 	background-color:#04509d;
